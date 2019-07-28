@@ -1,0 +1,58 @@
+/* 改变Grid组件内部img标签的样式 */
+.am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content img.am-grid-icon {
+    width: 50%!important;
+}
+.search_box{
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search_box img{
+    width: 25px;
+}
+.search_city{
+    color: #fff;
+    font-size: 16px;
+}
+.search_center_box{
+    width: 65%;
+    background-color: #fff;
+    height: 36px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    text-indent: 6px;
+    padding-left: 6px;
+}
+.search_center_box >label{
+    color: #AEAEAE;
+    font-size: 16px;
+}
+.liner{
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f3f3f3;
+
+}
+.liner label{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+.content{
+    margin-left: -50px;
+    
+}
+.content p{
+    line-height: 24px;
+}
+.content h3{
+    line-height: 26px;
+}

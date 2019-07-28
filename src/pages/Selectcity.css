@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.select_title{
+    height: 50px;
+    background-color: blue;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.select_title img{
+    position: absolute;
+    left:10px;
+}
+.select_title label{
+    font-weight: bold;
+    font-size: 22px;
+}
+/* 城市选择区域 */
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* 左边大盒子 */
+#left_box{
+    height: 600px;
+    overflow:auto;
+}
+/* 左侧城市列表盒子 */
+.select_list{
+    width:85%;
+    padding-top: 10px;
+    text-indent: 20px;
+}
+.city-letter{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 255,.2);
+    line-height: 40px!important;
+}
+
+/* 右侧字母索引 */
+.select_letter{
+    padding-right: 8px;
+    margin-top: 50px;
+    list-style: none;
+    height: 500px;
+    line-height: 30px;
+    overflow:scroll;
+    text-align: center;  
+    width:20px;  
+}
